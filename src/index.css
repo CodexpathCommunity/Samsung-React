@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@font-face {
+  font-family: "SamsungOne400";
+  src: url("https://d3unf4s5rp9dfh.cloudfront.net/ONEUI/SamsungOneKorean-400.woff2")
+      format("woff2"),
+    url(https://d3unf4s5rp9dfh.cloudfront.net/ONEUI/SamsungOneKorean-400.woff)
+      format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "SamsungOne500";
+  src: url("https://d3unf4s5rp9dfh.cloudfront.net/ONEUI/SamsungOneKorean-500.woff2")
+      format("woff2"),
+    url(https://d3unf4s5rp9dfh.cloudfront.net/ONEUI/SamsungOneKorean-500.woff)
+      format("woff");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "SamsungOne700";
+  src: url("https://d3unf4s5rp9dfh.cloudfront.net/ONEUI/SamsungOneKorean-700.woff2")
+      format("woff2"),
+    url(https://d3unf4s5rp9dfh.cloudfront.net/ONEUI/SamsungOneKorean-700.woff)
+      format("woff");
+  font-weight: 700;
+}
+
+html, body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: "SamsungOne500", sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* font-family: "SamsungOne500-kr",-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", */
+    /* "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", */
+    /* sans-serif; */
+
+  background: #121212;
+  /* color: #89cff0; */
+  user-select: none;
+  overflow: hidden;
+}
+
+* {
+  scrollbar-width: none;
+}
+
+*::selection {
+  /* background: initial; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#root{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.App {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 440px;
+  max-height: 100vh;
+}
+
+.appwrap {
+  position: relative;
+  height: 100%;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.redbd{
+  box-sizing: border-box;
+  border: solid 1px red;
+}
+
+.dpShad {
+  filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.25));
+}
+
+.mdShad {
+  filter: drop-shadow(0 1px 4px rgba(41, 41, 41, 0.2));
+}
+
+.ltShad {
+  filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.25));
+}
+
+*::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+  background-color: transparent;
+}
+
+*:hover::-webkit-scrollbar-thumb{
+  background: rgba(32, 24, 148, 0.4);
+}
+
+*::-webkit-scrollbar-thumb {
+  width: 4px;
+  height: 4px;
+  border-radius: 10px;
+  background-color: transparent;
+}

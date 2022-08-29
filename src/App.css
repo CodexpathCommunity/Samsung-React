@@ -1,0 +1,136 @@
+.App {
+  --stbar-h: 2.4em;
+}
+
+*[data-ninja="true"] {
+  pointer-events: none;
+}
+
+.uicon {
+  position: relative;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.text-xss {
+  font-size: 0.64em;
+}
+
+.smooth-trans {
+  transition: all 200ms ease-in-out;
+}
+
+.invert-true,
+img[data-invert="true"],
+svg[data-invert="true"],
+i[data-invert="true"] {
+  filter: invert(1);
+}
+
+.rounded-true,
+img[data-rounded="true"],
+svg[data-rounded="true"],
+i[data-rounded="true"] {
+  border-radius: 1000px;
+}
+
+.flip-true,
+img[data-flip="true"],
+svg[data-flip="true"],
+i[data-flip="true"] {
+  transform: scale(-1, 1);
+}
+
+.uicon img {
+  transform-origin: center;
+  transition: 400ms ease-in-out;
+}
+
+.imageCont, .vidCont{
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: auto;
+  height: auto;
+}
+
+.imageCont &[data-back="true"] {
+  background-position: center;
+  background-size: cover;
+}
+
+.imageCont img[data-free="false"] {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.imageCont.rounded {
+  overflow: hidden;
+}
+
+.noscroll::-webkit-scrollbar {
+  display: none;
+}
+
+.thinScroll::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+  background-color: transparent;
+}
+
+.medScroll::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+  background-color: transparent;
+}
+
+.thinScroll:hover::-webkit-scrollbar-thumb,
+.medScroll:hover::-webkit-scrollbar-thumb {
+  background: rgba(32, 24, 148, 0.4);
+}
+
+.lightScroll:hover::-webkit-scrollbar-thumb {
+  background: rgba(162, 159, 209, 0.4);
+}
+
+.thinScroll::-webkit-scrollbar-thumb {
+  width: 2px;
+  height: 2px;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.medScroll::-webkit-scrollbar-thumb {
+  width: 4px;
+  height: 4px;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.upbug::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -2px;
+  width: 100%;
+  height: 4px;
+  background: #128c7e;
+}
+
+.downbug::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 4px;
+  background: #128c7e;
+}
+
+@media only screen and (min-width: 520px) {
+  *{
+    /* cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewport='0 0 24 24' width='24' height='24'><circle cx='12' cy='12' r='12' style='fill: rgba(64, 64, 64, 0.2);'></circle><circle cx='12' cy='12' r='10' style='fill: rgba(0, 0, 0, 0.25);'></circle></svg>"), auto; */
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "name": "Android11React",
+  "description": "Android made in React",
+  "repository": "https://github.com/blueedgetechno/androidInReact",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-regular-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
+    "@mui/icons-material": "^5.6.2",
+    "@mui/lab": "^5.0.0-alpha.83",
+    "@mui/material": "^5.8.1",
+    "@reduxjs/toolkit": "^1.8.2",
+    "@sentry/react": "^6.19.7",
+    "@sentry/tracing": "^6.19.7",
+    "@tauri-apps/api": "^1.0.0-rc.6",
+    "@win11react/react-hammerjs": "1.0.2",
+    "axios": "^0.27.2",
+    "color-parse": "^1.4.2",
+    "color-rgba": "^2.4.0",
+    "react": "^18.1.0",
+    "react-calendar": "^3.7.0",
+    "react-dom": "^18.1.0",
+    "react-player": "^2.10.1",
+    "react-redux": "^8.0.2",
+    "react-scripts": "^5.0.1",
+    "react-slick": "^0.29.0",
+    "redux": "^4.2.0",
+    "redux-thunk": "^2.4.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "ghbuild": "CI=false react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "tauri": "tauri"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.0.0-rc.12",
+    "node-sass": "^7.0.1",
+    "tailwindcss": "^3.0.24"
+  }
+}
