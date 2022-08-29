@@ -68,7 +68,7 @@ var apps = [
     icon: 'github',
     type: 'app',
     action: 'home/openLink',
-    payload: 'https://github.com/17992',
+    payload: 'https://github.com/sideedgetech',
     padd: true
   },
   {
@@ -76,7 +76,7 @@ var apps = [
     icon: 'gmail',
     type: 'app',
     action: 'home/openLink',
-    payload: 'mailto:blueedgetechno@gmail.com',
+    payload: 'mailto:sideedgetech@gmail.com',
     padd: true
   },
   {
