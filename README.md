@@ -3,14 +3,14 @@
 An open-source project that aims to provide an indistinguishably accurate experience of Android on web. The project leverages different JavaScript Web APIs to imitates the Android functionalities and CSS animations to bring life into it.
 
 ------------
-#### Visit the Live Application🌈: &nbsp; [samsung-react.vercel.app/](https://samsung-react.vercel.app/)
+#### Visit the Live Application🌈: &nbsp; [Samsung on react](https://samsung-web.vercel.app/)
 
 ## Gallery
 ![img1](public/gall1.png)
 
 ![img1](public/gall2.png)
 
-#### Visit the Live Application🌈: &nbsp; [samsung-react.vercel.app/](https://samsung-react.vercel.app/)
+#### Visit the Live Application🌈: &nbsp; [samsung on React](https://samsung-web.vercel.app/)
 
 # Stack
 
