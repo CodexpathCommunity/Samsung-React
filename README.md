@@ -53,7 +53,7 @@ An open-source project that aims to provide an indistinguishably accurate experi
 
 
 4. Can I contribute?
-    - Yes, you can! Open an issue, create a pull request, head over to [discussions](https://github.com/17992/Samsung-React/discussions)
+    - Yes, you can! Open an issue, create a pull request, head over to [discussions](https://github.com/sideedgetech/Samsung-React/discussions)
 
 5. Where did you get the inspiration from, if you have?
     - I got the inspired to make the project on the suggestion of [Derry Shribman](https://github.com/xderry).
