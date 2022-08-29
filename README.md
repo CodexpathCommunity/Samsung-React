@@ -10,7 +10,7 @@ An open-source project that aims to provide an indistinguishably accurate experi
 
 ![img1](public/gall2.png)
 
-#### Visit the Live Application🌈: &nbsp; [samsung on React](https://samsung-web.vercel.app/)
+#### Visit the Live Application🌈: &nbsp; [Samsung on React](https://samsung-web.vercel.app/)
 
 # Stack
 
