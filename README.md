@@ -63,10 +63,6 @@ An open-source project that aims to provide an indistinguishably accurate experi
     - Because they cannot C# (see sharp). &nbsp;&nbsp;&nbsp;
 
 
-## Online Deployment
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/17992/Samsung-React)
-
 ## License
 
  🪪 Mit Licence
