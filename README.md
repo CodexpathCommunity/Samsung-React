@@ -66,3 +66,5 @@ An open-source project that aims to provide an indistinguishably accurate experi
 ## License
 
  🪪 Mit Licence
+
+*Note there is a bug of my site, I will reattempt on my Portfolio and try to remake it :)*
