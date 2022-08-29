@@ -1,6 +1,6 @@
 {
-  "short_name": "Android In React",
-  "name": "Android on web",
+  "short_name": "Samsung In React",
+  "name": "Samsung on web",
   "icons": [
     {
       "src": "favicon.ico",
@@ -19,10 +19,10 @@
     }
   ],
   "author": {
-		"name": "Aksh Gupta",
-		"website": "https://github.com/17992",
-		"github": "https://github.com/17992",
-		"source-repo": "https://github.com/17992/Samsung-React"
+		"name": "Side Edge",
+		"website": "https://github.com/sideedgetech",
+		"github": "https://github.com/sideedgetech",
+		"source-repo": "https://github.com/sideedgetech/Samsung-React"
 	},
   "start_url": ".",
   "display": "standalone",
